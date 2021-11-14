@@ -1,0 +1,10 @@
+com\example\demo\DemoApplication.class
+com\example\demo\requesthandling\handler\AbstractStreamHandler.class
+com\example\demo\service\helper\FlattenTheArrayServiceHelperImpl.class
+com\example\demo\service\ArrayFlattenService.class
+com\example\demo\requesthandling\config\SpringFrameworkConfig.class
+com\example\demo\requesthandling\handler\StreamHandler.class
+com\example\demo\service\ArrayFlattenServiceImpl.class
+com\example\demo\requesthandling\dto\ArrayOutputDTO.class
+com\example\demo\requesthandling\dto\ArrayInputDTO.class
+com\example\demo\service\helper\FlattenTheArrayServiceHelper.class

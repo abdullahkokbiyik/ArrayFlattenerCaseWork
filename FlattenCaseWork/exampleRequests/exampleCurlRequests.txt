@@ -1,0 +1,11 @@
+curl -i -X POST -H "Content-Type:application/json" -d "{\"input\" : [1, [2, [3]], [[6]], 5, [7], 8]}" https://q083ceqzo8.execute-api.us-east-2.amazonaws.com/prod/flattenTheArrayCase
+
+curl -i -X POST -H "Content-Type:application/json" -d "{\"input\" : [1, [2, [3]], [[6]], 5, 10, [7, [9]], 8]}" https://q083ceqzo8.execute-api.us-east-2.amazonaws.com/prod/flattenTheArrayCase
+
+curl -i -X POST -H "Content-Type:application/json" -d "{\"input\" : [1, 4, 2, 3, 1]}" https://q083ceqzo8.execute-api.us-east-2.amazonaws.com/prod/flattenTheArrayCase
+
+//testing behaivour that request is empty
+curl -i -X POST -H "Content-Type:application/json" -d "{\"input\" : []}" https://q083ceqzo8.execute-api.us-east-2.amazonaws.com/prod/flattenTheArrayCase
+
+//testing invalid request
+curl -i -X POST -H "Content-Type:application/json" -d "{\"input\" : }" https://q083ceqzo8.execute-api.us-east-2.amazonaws.com/prod/flattenTheArrayCase
